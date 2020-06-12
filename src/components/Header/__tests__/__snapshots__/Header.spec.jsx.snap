@@ -1,0 +1,2712 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render the Header Component correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Header
+    basketItems={
+      Array [
+        Object {
+          "image": "https://media.4rgos.it/s/Argos/9805244_R_SET?w=110&h=130",
+          "price": 24.99,
+          "productId": "5493179",
+          "sku": "549/3179",
+          "title": "Russell Hobbs Pennine Illuminating S Steel Kettle 20444",
+        },
+      ]
+    }
+    handleBasket={[MockFunction]}
+    handleClickOutside={[MockFunction]}
+    handleMobileSearch={[MockFunction]}
+    handleSearchNav={[MockFunction]}
+    handleSubmit={[MockFunction]}
+    mobileSearch={false}
+    removeProduct={[MockFunction]}
+    showBasket={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="container"
+      >
+        <div
+          className="brand"
+        >
+          <img
+            alt="Argos Brand Logo"
+            className="logo"
+            src="logo.png"
+          />
+        </div>
+        <div
+          className="search"
+        >
+          <a
+            className="mobile-search"
+            href="/#"
+            onClick={[Function]}
+          >
+            <img
+              alt="search"
+              src="search-small.png"
+            />
+          </a>
+          <form
+            action="#"
+            className="search-form"
+            method="get"
+          >
+            <a
+              className="back-button"
+              href="/#"
+              onClick={[Function]}
+            >
+              <img
+                alt="back"
+                src="back.png"
+              />
+            </a>
+            <input
+              className="search-keyword"
+              placeholder="Search for products"
+              type="search"
+            />
+            <Button
+              className="search-button"
+              disabled={false}
+              onClick={[Function]}
+              type="submit"
+            >
+              <img
+                alt="Search"
+                src="search.png"
+              />
+            </Button>
+          </form>
+        </div>
+        <div
+          className="basket"
+        >
+          <div
+            className="basket-info"
+          >
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    No. of items
+                  </td>
+                  <td>
+                    :
+                  </td>
+                  <td>
+                    <strong />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Sub Total
+                  </td>
+                  <td>
+                    :
+                  </td>
+                  <td>
+                    <strong />
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <a
+            className="basket-icon"
+            href="/#"
+            onClick={[Function]}
+          >
+            <img
+              alt="Basket"
+              className=" "
+              src="basket.png"
+            />
+            
+          </a>
+          <div
+            className="basket-preview"
+          >
+            <BasketScrollBar>
+              <li
+                className="basket-item"
+              >
+                <img
+                  alt="Russell Hobbs Pennine Illuminating S Steel Kettle 20444"
+                  className="product-image"
+                  src="https://media.4rgos.it/s/Argos/9805244_R_SET?w=110&h=130"
+                />
+                <div
+                  className="product-info"
+                >
+                  <p
+                    className="product-name"
+                  >
+                    Russell Hobbs Pennine Illuminating S Steel Kettle 20444
+                  </p>
+                  <p
+                    className="product-price"
+                  >
+                    24.99
+                  </p>
+                </div>
+                <div
+                  className="product-total"
+                >
+                  <p
+                    className="quantity"
+                  >
+                     
+                    No.
+                     
+                  </p>
+                  <p
+                    className="amount"
+                  >
+                    NaN
+                  </p>
+                </div>
+                <a
+                  className="product-remove"
+                  href="/#"
+                  onClick={[Function]}
+                >
+                  ×
+                </a>
+              </li>
+            </BasketScrollBar>
+            <div
+              className="action-block"
+            >
+              <Button
+                className=" "
+                disabled={false}
+                type="button"
+              >
+                PROCEED TO CHECKOUT
+              </Button>
+            </div>
+          </div>
+        </div>
+      </div>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="brand"
+          >
+            <img
+              alt="Argos Brand Logo"
+              className="logo"
+              src="logo.png"
+            />
+          </div>,
+          <div
+            className="search"
+          >
+            <a
+              className="mobile-search"
+              href="/#"
+              onClick={[Function]}
+            >
+              <img
+                alt="search"
+                src="search-small.png"
+              />
+            </a>
+            <form
+              action="#"
+              className="search-form"
+              method="get"
+            >
+              <a
+                className="back-button"
+                href="/#"
+                onClick={[Function]}
+              >
+                <img
+                  alt="back"
+                  src="back.png"
+                />
+              </a>
+              <input
+                className="search-keyword"
+                placeholder="Search for products"
+                type="search"
+              />
+              <Button
+                className="search-button"
+                disabled={false}
+                onClick={[Function]}
+                type="submit"
+              >
+                <img
+                  alt="Search"
+                  src="search.png"
+                />
+              </Button>
+            </form>
+          </div>,
+          <div
+            className="basket"
+          >
+            <div
+              className="basket-info"
+            >
+              <table>
+                <tbody>
+                  <tr>
+                    <td>
+                      No. of items
+                    </td>
+                    <td>
+                      :
+                    </td>
+                    <td>
+                      <strong />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Sub Total
+                    </td>
+                    <td>
+                      :
+                    </td>
+                    <td>
+                      <strong />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <a
+              className="basket-icon"
+              href="/#"
+              onClick={[Function]}
+            >
+              <img
+                alt="Basket"
+                className=" "
+                src="basket.png"
+              />
+              
+            </a>
+            <div
+              className="basket-preview"
+            >
+              <BasketScrollBar>
+                <li
+                  className="basket-item"
+                >
+                  <img
+                    alt="Russell Hobbs Pennine Illuminating S Steel Kettle 20444"
+                    className="product-image"
+                    src="https://media.4rgos.it/s/Argos/9805244_R_SET?w=110&h=130"
+                  />
+                  <div
+                    className="product-info"
+                  >
+                    <p
+                      className="product-name"
+                    >
+                      Russell Hobbs Pennine Illuminating S Steel Kettle 20444
+                    </p>
+                    <p
+                      className="product-price"
+                    >
+                      24.99
+                    </p>
+                  </div>
+                  <div
+                    className="product-total"
+                  >
+                    <p
+                      className="quantity"
+                    >
+                       
+                      No.
+                       
+                    </p>
+                    <p
+                      className="amount"
+                    >
+                      NaN
+                    </p>
+                  </div>
+                  <a
+                    className="product-remove"
+                    href="/#"
+                    onClick={[Function]}
+                  >
+                    ×
+                  </a>
+                </li>
+              </BasketScrollBar>
+              <div
+                className="action-block"
+              >
+                <Button
+                  className=" "
+                  disabled={false}
+                  type="button"
+                >
+                  PROCEED TO CHECKOUT
+                </Button>
+              </div>
+            </div>
+          </div>,
+        ],
+        "className": "container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <img
+              alt="Argos Brand Logo"
+              className="logo"
+              src="logo.png"
+            />,
+            "className": "brand",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "Argos Brand Logo",
+              "className": "logo",
+              "src": "logo.png",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <a
+                className="mobile-search"
+                href="/#"
+                onClick={[Function]}
+              >
+                <img
+                  alt="search"
+                  src="search-small.png"
+                />
+              </a>,
+              <form
+                action="#"
+                className="search-form"
+                method="get"
+              >
+                <a
+                  className="back-button"
+                  href="/#"
+                  onClick={[Function]}
+                >
+                  <img
+                    alt="back"
+                    src="back.png"
+                  />
+                </a>
+                <input
+                  className="search-keyword"
+                  placeholder="Search for products"
+                  type="search"
+                />
+                <Button
+                  className="search-button"
+                  disabled={false}
+                  onClick={[Function]}
+                  type="submit"
+                >
+                  <img
+                    alt="Search"
+                    src="search.png"
+                  />
+                </Button>
+              </form>,
+            ],
+            "className": "search",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <img
+                  alt="search"
+                  src="search-small.png"
+                />,
+                "className": "mobile-search",
+                "href": "/#",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "search",
+                  "src": "search-small.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              "type": "a",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "action": "#",
+                "children": Array [
+                  <a
+                    className="back-button"
+                    href="/#"
+                    onClick={[Function]}
+                  >
+                    <img
+                      alt="back"
+                      src="back.png"
+                    />
+                  </a>,
+                  <input
+                    className="search-keyword"
+                    placeholder="Search for products"
+                    type="search"
+                  />,
+                  <Button
+                    className="search-button"
+                    disabled={false}
+                    onClick={[Function]}
+                    type="submit"
+                  >
+                    <img
+                      alt="Search"
+                      src="search.png"
+                    />
+                  </Button>,
+                ],
+                "className": "search-form",
+                "method": "get",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <img
+                      alt="back"
+                      src="back.png"
+                    />,
+                    "className": "back-button",
+                    "href": "/#",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "back",
+                      "src": "back.png",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  "type": "a",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "search-keyword",
+                    "onChange": undefined,
+                    "placeholder": "Search for products",
+                    "type": "search",
+                  },
+                  "ref": "searchBox",
+                  "rendered": null,
+                  "type": "input",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <img
+                      alt="Search"
+                      src="search.png"
+                    />,
+                    "className": "search-button",
+                    "disabled": false,
+                    "onClick": [Function],
+                    "type": "submit",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "Search",
+                      "src": "search.png",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": "form",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="basket-info"
+              >
+                <table>
+                  <tbody>
+                    <tr>
+                      <td>
+                        No. of items
+                      </td>
+                      <td>
+                        :
+                      </td>
+                      <td>
+                        <strong />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Sub Total
+                      </td>
+                      <td>
+                        :
+                      </td>
+                      <td>
+                        <strong />
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>,
+              <a
+                className="basket-icon"
+                href="/#"
+                onClick={[Function]}
+              >
+                <img
+                  alt="Basket"
+                  className=" "
+                  src="basket.png"
+                />
+                
+              </a>,
+              <div
+                className="basket-preview"
+              >
+                <BasketScrollBar>
+                  <li
+                    className="basket-item"
+                  >
+                    <img
+                      alt="Russell Hobbs Pennine Illuminating S Steel Kettle 20444"
+                      className="product-image"
+                      src="https://media.4rgos.it/s/Argos/9805244_R_SET?w=110&h=130"
+                    />
+                    <div
+                      className="product-info"
+                    >
+                      <p
+                        className="product-name"
+                      >
+                        Russell Hobbs Pennine Illuminating S Steel Kettle 20444
+                      </p>
+                      <p
+                        className="product-price"
+                      >
+                        24.99
+                      </p>
+                    </div>
+                    <div
+                      className="product-total"
+                    >
+                      <p
+                        className="quantity"
+                      >
+                         
+                        No.
+                         
+                      </p>
+                      <p
+                        className="amount"
+                      >
+                        NaN
+                      </p>
+                    </div>
+                    <a
+                      className="product-remove"
+                      href="/#"
+                      onClick={[Function]}
+                    >
+                      ×
+                    </a>
+                  </li>
+                </BasketScrollBar>
+                <div
+                  className="action-block"
+                >
+                  <Button
+                    className=" "
+                    disabled={false}
+                    type="button"
+                  >
+                    PROCEED TO CHECKOUT
+                  </Button>
+                </div>
+              </div>,
+            ],
+            "className": "basket",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <table>
+                  <tbody>
+                    <tr>
+                      <td>
+                        No. of items
+                      </td>
+                      <td>
+                        :
+                      </td>
+                      <td>
+                        <strong />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Sub Total
+                      </td>
+                      <td>
+                        :
+                      </td>
+                      <td>
+                        <strong />
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>,
+                "className": "basket-info",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <tbody>
+                    <tr>
+                      <td>
+                        No. of items
+                      </td>
+                      <td>
+                        :
+                      </td>
+                      <td>
+                        <strong />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Sub Total
+                      </td>
+                      <td>
+                        :
+                      </td>
+                      <td>
+                        <strong />
+                      </td>
+                    </tr>
+                  </tbody>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <tr>
+                        <td>
+                          No. of items
+                        </td>
+                        <td>
+                          :
+                        </td>
+                        <td>
+                          <strong />
+                        </td>
+                      </tr>,
+                      <tr>
+                        <td>
+                          Sub Total
+                        </td>
+                        <td>
+                          :
+                        </td>
+                        <td>
+                          <strong />
+                        </td>
+                      </tr>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <td>
+                            No. of items
+                          </td>,
+                          <td>
+                            :
+                          </td>,
+                          <td>
+                            <strong />
+                          </td>,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "No. of items",
+                          },
+                          "ref": null,
+                          "rendered": "No. of items",
+                          "type": "td",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": ":",
+                          },
+                          "ref": null,
+                          "rendered": ":",
+                          "type": "td",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <strong />,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": undefined,
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "strong",
+                          },
+                          "type": "td",
+                        },
+                      ],
+                      "type": "tr",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <td>
+                            Sub Total
+                          </td>,
+                          <td>
+                            :
+                          </td>,
+                          <td>
+                            <strong />
+                          </td>,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Sub Total",
+                          },
+                          "ref": null,
+                          "rendered": "Sub Total",
+                          "type": "td",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": ":",
+                          },
+                          "ref": null,
+                          "rendered": ":",
+                          "type": "td",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <strong />,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": undefined,
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "strong",
+                          },
+                          "type": "td",
+                        },
+                      ],
+                      "type": "tr",
+                    },
+                  ],
+                  "type": "tbody",
+                },
+                "type": "table",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt="Basket"
+                    className=" "
+                    src="basket.png"
+                  />,
+                  "",
+                ],
+                "className": "basket-icon",
+                "href": "/#",
+                "onClick": [Function],
+              },
+              "ref": "basketButton",
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "Basket",
+                    "className": " ",
+                    "src": "basket.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                "",
+              ],
+              "type": "a",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <BasketScrollBar>
+                    <li
+                      className="basket-item"
+                    >
+                      <img
+                        alt="Russell Hobbs Pennine Illuminating S Steel Kettle 20444"
+                        className="product-image"
+                        src="https://media.4rgos.it/s/Argos/9805244_R_SET?w=110&h=130"
+                      />
+                      <div
+                        className="product-info"
+                      >
+                        <p
+                          className="product-name"
+                        >
+                          Russell Hobbs Pennine Illuminating S Steel Kettle 20444
+                        </p>
+                        <p
+                          className="product-price"
+                        >
+                          24.99
+                        </p>
+                      </div>
+                      <div
+                        className="product-total"
+                      >
+                        <p
+                          className="quantity"
+                        >
+                           
+                          No.
+                           
+                        </p>
+                        <p
+                          className="amount"
+                        >
+                          NaN
+                        </p>
+                      </div>
+                      <a
+                        className="product-remove"
+                        href="/#"
+                        onClick={[Function]}
+                      >
+                        ×
+                      </a>
+                    </li>
+                  </BasketScrollBar>,
+                  <div
+                    className="action-block"
+                  >
+                    <Button
+                      className=" "
+                      disabled={false}
+                      type="button"
+                    >
+                      PROCEED TO CHECKOUT
+                    </Button>
+                  </div>,
+                ],
+                "className": "basket-preview",
+              },
+              "ref": "basketPreview",
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <li
+                        className="basket-item"
+                      >
+                        <img
+                          alt="Russell Hobbs Pennine Illuminating S Steel Kettle 20444"
+                          className="product-image"
+                          src="https://media.4rgos.it/s/Argos/9805244_R_SET?w=110&h=130"
+                        />
+                        <div
+                          className="product-info"
+                        >
+                          <p
+                            className="product-name"
+                          >
+                            Russell Hobbs Pennine Illuminating S Steel Kettle 20444
+                          </p>
+                          <p
+                            className="product-price"
+                          >
+                            24.99
+                          </p>
+                        </div>
+                        <div
+                          className="product-total"
+                        >
+                          <p
+                            className="quantity"
+                          >
+                             
+                            No.
+                             
+                          </p>
+                          <p
+                            className="amount"
+                          >
+                            NaN
+                          </p>
+                        </div>
+                        <a
+                          className="product-remove"
+                          href="/#"
+                          onClick={[Function]}
+                        >
+                          ×
+                        </a>
+                      </li>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": "Russell Hobbs Pennine Illuminating S Steel Kettle 20444",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <img
+                            alt="Russell Hobbs Pennine Illuminating S Steel Kettle 20444"
+                            className="product-image"
+                            src="https://media.4rgos.it/s/Argos/9805244_R_SET?w=110&h=130"
+                          />,
+                          <div
+                            className="product-info"
+                          >
+                            <p
+                              className="product-name"
+                            >
+                              Russell Hobbs Pennine Illuminating S Steel Kettle 20444
+                            </p>
+                            <p
+                              className="product-price"
+                            >
+                              24.99
+                            </p>
+                          </div>,
+                          <div
+                            className="product-total"
+                          >
+                            <p
+                              className="quantity"
+                            >
+                               
+                              No.
+                               
+                            </p>
+                            <p
+                              className="amount"
+                            >
+                              NaN
+                            </p>
+                          </div>,
+                          <a
+                            className="product-remove"
+                            href="/#"
+                            onClick={[Function]}
+                          >
+                            ×
+                          </a>,
+                        ],
+                        "className": "basket-item",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "alt": "Russell Hobbs Pennine Illuminating S Steel Kettle 20444",
+                            "className": "product-image",
+                            "src": "https://media.4rgos.it/s/Argos/9805244_R_SET?w=110&h=130",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "img",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <p
+                                className="product-name"
+                              >
+                                Russell Hobbs Pennine Illuminating S Steel Kettle 20444
+                              </p>,
+                              <p
+                                className="product-price"
+                              >
+                                24.99
+                              </p>,
+                            ],
+                            "className": "product-info",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Russell Hobbs Pennine Illuminating S Steel Kettle 20444",
+                                "className": "product-name",
+                              },
+                              "ref": null,
+                              "rendered": "Russell Hobbs Pennine Illuminating S Steel Kettle 20444",
+                              "type": "p",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": 24.99,
+                                "className": "product-price",
+                              },
+                              "ref": null,
+                              "rendered": 24.99,
+                              "type": "p",
+                            },
+                          ],
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <p
+                                className="quantity"
+                              >
+                                 
+                                No.
+                                 
+                              </p>,
+                              <p
+                                className="amount"
+                              >
+                                NaN
+                              </p>,
+                            ],
+                            "className": "product-total",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": Array [
+                                  undefined,
+                                  " ",
+                                  "No.",
+                                  " ",
+                                ],
+                                "className": "quantity",
+                              },
+                              "ref": null,
+                              "rendered": Array [
+                                undefined,
+                                " ",
+                                "No.",
+                                " ",
+                              ],
+                              "type": "p",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": NaN,
+                                "className": "amount",
+                              },
+                              "ref": null,
+                              "rendered": NaN,
+                              "type": "p",
+                            },
+                          ],
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "×",
+                            "className": "product-remove",
+                            "href": "/#",
+                            "onClick": [Function],
+                          },
+                          "ref": null,
+                          "rendered": "×",
+                          "type": "a",
+                        },
+                      ],
+                      "type": "li",
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Button
+                      className=" "
+                      disabled={false}
+                      type="button"
+                    >
+                      PROCEED TO CHECKOUT
+                    </Button>,
+                    "className": "action-block",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": "PROCEED TO CHECKOUT",
+                      "className": " ",
+                      "disabled": false,
+                      "type": "button",
+                    },
+                    "ref": null,
+                    "rendered": "PROCEED TO CHECKOUT",
+                    "type": [Function],
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "header",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="container"
+        >
+          <div
+            className="brand"
+          >
+            <img
+              alt="Argos Brand Logo"
+              className="logo"
+              src="logo.png"
+            />
+          </div>
+          <div
+            className="search"
+          >
+            <a
+              className="mobile-search"
+              href="/#"
+              onClick={[Function]}
+            >
+              <img
+                alt="search"
+                src="search-small.png"
+              />
+            </a>
+            <form
+              action="#"
+              className="search-form"
+              method="get"
+            >
+              <a
+                className="back-button"
+                href="/#"
+                onClick={[Function]}
+              >
+                <img
+                  alt="back"
+                  src="back.png"
+                />
+              </a>
+              <input
+                className="search-keyword"
+                placeholder="Search for products"
+                type="search"
+              />
+              <Button
+                className="search-button"
+                disabled={false}
+                onClick={[Function]}
+                type="submit"
+              >
+                <img
+                  alt="Search"
+                  src="search.png"
+                />
+              </Button>
+            </form>
+          </div>
+          <div
+            className="basket"
+          >
+            <div
+              className="basket-info"
+            >
+              <table>
+                <tbody>
+                  <tr>
+                    <td>
+                      No. of items
+                    </td>
+                    <td>
+                      :
+                    </td>
+                    <td>
+                      <strong />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Sub Total
+                    </td>
+                    <td>
+                      :
+                    </td>
+                    <td>
+                      <strong />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <a
+              className="basket-icon"
+              href="/#"
+              onClick={[Function]}
+            >
+              <img
+                alt="Basket"
+                className=" "
+                src="basket.png"
+              />
+              
+            </a>
+            <div
+              className="basket-preview"
+            >
+              <BasketScrollBar>
+                <li
+                  className="basket-item"
+                >
+                  <img
+                    alt="Russell Hobbs Pennine Illuminating S Steel Kettle 20444"
+                    className="product-image"
+                    src="https://media.4rgos.it/s/Argos/9805244_R_SET?w=110&h=130"
+                  />
+                  <div
+                    className="product-info"
+                  >
+                    <p
+                      className="product-name"
+                    >
+                      Russell Hobbs Pennine Illuminating S Steel Kettle 20444
+                    </p>
+                    <p
+                      className="product-price"
+                    >
+                      24.99
+                    </p>
+                  </div>
+                  <div
+                    className="product-total"
+                  >
+                    <p
+                      className="quantity"
+                    >
+                       
+                      No.
+                       
+                    </p>
+                    <p
+                      className="amount"
+                    >
+                      NaN
+                    </p>
+                  </div>
+                  <a
+                    className="product-remove"
+                    href="/#"
+                    onClick={[Function]}
+                  >
+                    ×
+                  </a>
+                </li>
+              </BasketScrollBar>
+              <div
+                className="action-block"
+              >
+                <Button
+                  className=" "
+                  disabled={false}
+                  type="button"
+                >
+                  PROCEED TO CHECKOUT
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="brand"
+            >
+              <img
+                alt="Argos Brand Logo"
+                className="logo"
+                src="logo.png"
+              />
+            </div>,
+            <div
+              className="search"
+            >
+              <a
+                className="mobile-search"
+                href="/#"
+                onClick={[Function]}
+              >
+                <img
+                  alt="search"
+                  src="search-small.png"
+                />
+              </a>
+              <form
+                action="#"
+                className="search-form"
+                method="get"
+              >
+                <a
+                  className="back-button"
+                  href="/#"
+                  onClick={[Function]}
+                >
+                  <img
+                    alt="back"
+                    src="back.png"
+                  />
+                </a>
+                <input
+                  className="search-keyword"
+                  placeholder="Search for products"
+                  type="search"
+                />
+                <Button
+                  className="search-button"
+                  disabled={false}
+                  onClick={[Function]}
+                  type="submit"
+                >
+                  <img
+                    alt="Search"
+                    src="search.png"
+                  />
+                </Button>
+              </form>
+            </div>,
+            <div
+              className="basket"
+            >
+              <div
+                className="basket-info"
+              >
+                <table>
+                  <tbody>
+                    <tr>
+                      <td>
+                        No. of items
+                      </td>
+                      <td>
+                        :
+                      </td>
+                      <td>
+                        <strong />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Sub Total
+                      </td>
+                      <td>
+                        :
+                      </td>
+                      <td>
+                        <strong />
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <a
+                className="basket-icon"
+                href="/#"
+                onClick={[Function]}
+              >
+                <img
+                  alt="Basket"
+                  className=" "
+                  src="basket.png"
+                />
+                
+              </a>
+              <div
+                className="basket-preview"
+              >
+                <BasketScrollBar>
+                  <li
+                    className="basket-item"
+                  >
+                    <img
+                      alt="Russell Hobbs Pennine Illuminating S Steel Kettle 20444"
+                      className="product-image"
+                      src="https://media.4rgos.it/s/Argos/9805244_R_SET?w=110&h=130"
+                    />
+                    <div
+                      className="product-info"
+                    >
+                      <p
+                        className="product-name"
+                      >
+                        Russell Hobbs Pennine Illuminating S Steel Kettle 20444
+                      </p>
+                      <p
+                        className="product-price"
+                      >
+                        24.99
+                      </p>
+                    </div>
+                    <div
+                      className="product-total"
+                    >
+                      <p
+                        className="quantity"
+                      >
+                         
+                        No.
+                         
+                      </p>
+                      <p
+                        className="amount"
+                      >
+                        NaN
+                      </p>
+                    </div>
+                    <a
+                      className="product-remove"
+                      href="/#"
+                      onClick={[Function]}
+                    >
+                      ×
+                    </a>
+                  </li>
+                </BasketScrollBar>
+                <div
+                  className="action-block"
+                >
+                  <Button
+                    className=" "
+                    disabled={false}
+                    type="button"
+                  >
+                    PROCEED TO CHECKOUT
+                  </Button>
+                </div>
+              </div>
+            </div>,
+          ],
+          "className": "container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <img
+                alt="Argos Brand Logo"
+                className="logo"
+                src="logo.png"
+              />,
+              "className": "brand",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "Argos Brand Logo",
+                "className": "logo",
+                "src": "logo.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <a
+                  className="mobile-search"
+                  href="/#"
+                  onClick={[Function]}
+                >
+                  <img
+                    alt="search"
+                    src="search-small.png"
+                  />
+                </a>,
+                <form
+                  action="#"
+                  className="search-form"
+                  method="get"
+                >
+                  <a
+                    className="back-button"
+                    href="/#"
+                    onClick={[Function]}
+                  >
+                    <img
+                      alt="back"
+                      src="back.png"
+                    />
+                  </a>
+                  <input
+                    className="search-keyword"
+                    placeholder="Search for products"
+                    type="search"
+                  />
+                  <Button
+                    className="search-button"
+                    disabled={false}
+                    onClick={[Function]}
+                    type="submit"
+                  >
+                    <img
+                      alt="Search"
+                      src="search.png"
+                    />
+                  </Button>
+                </form>,
+              ],
+              "className": "search",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <img
+                    alt="search"
+                    src="search-small.png"
+                  />,
+                  "className": "mobile-search",
+                  "href": "/#",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "search",
+                    "src": "search-small.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                "type": "a",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "action": "#",
+                  "children": Array [
+                    <a
+                      className="back-button"
+                      href="/#"
+                      onClick={[Function]}
+                    >
+                      <img
+                        alt="back"
+                        src="back.png"
+                      />
+                    </a>,
+                    <input
+                      className="search-keyword"
+                      placeholder="Search for products"
+                      type="search"
+                    />,
+                    <Button
+                      className="search-button"
+                      disabled={false}
+                      onClick={[Function]}
+                      type="submit"
+                    >
+                      <img
+                        alt="Search"
+                        src="search.png"
+                      />
+                    </Button>,
+                  ],
+                  "className": "search-form",
+                  "method": "get",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <img
+                        alt="back"
+                        src="back.png"
+                      />,
+                      "className": "back-button",
+                      "href": "/#",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "alt": "back",
+                        "src": "back.png",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
+                    },
+                    "type": "a",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "search-keyword",
+                      "onChange": undefined,
+                      "placeholder": "Search for products",
+                      "type": "search",
+                    },
+                    "ref": "searchBox",
+                    "rendered": null,
+                    "type": "input",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": <img
+                        alt="Search"
+                        src="search.png"
+                      />,
+                      "className": "search-button",
+                      "disabled": false,
+                      "onClick": [Function],
+                      "type": "submit",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "alt": "Search",
+                        "src": "search.png",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
+                    },
+                    "type": [Function],
+                  },
+                ],
+                "type": "form",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="basket-info"
+                >
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td>
+                          No. of items
+                        </td>
+                        <td>
+                          :
+                        </td>
+                        <td>
+                          <strong />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          Sub Total
+                        </td>
+                        <td>
+                          :
+                        </td>
+                        <td>
+                          <strong />
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>,
+                <a
+                  className="basket-icon"
+                  href="/#"
+                  onClick={[Function]}
+                >
+                  <img
+                    alt="Basket"
+                    className=" "
+                    src="basket.png"
+                  />
+                  
+                </a>,
+                <div
+                  className="basket-preview"
+                >
+                  <BasketScrollBar>
+                    <li
+                      className="basket-item"
+                    >
+                      <img
+                        alt="Russell Hobbs Pennine Illuminating S Steel Kettle 20444"
+                        className="product-image"
+                        src="https://media.4rgos.it/s/Argos/9805244_R_SET?w=110&h=130"
+                      />
+                      <div
+                        className="product-info"
+                      >
+                        <p
+                          className="product-name"
+                        >
+                          Russell Hobbs Pennine Illuminating S Steel Kettle 20444
+                        </p>
+                        <p
+                          className="product-price"
+                        >
+                          24.99
+                        </p>
+                      </div>
+                      <div
+                        className="product-total"
+                      >
+                        <p
+                          className="quantity"
+                        >
+                           
+                          No.
+                           
+                        </p>
+                        <p
+                          className="amount"
+                        >
+                          NaN
+                        </p>
+                      </div>
+                      <a
+                        className="product-remove"
+                        href="/#"
+                        onClick={[Function]}
+                      >
+                        ×
+                      </a>
+                    </li>
+                  </BasketScrollBar>
+                  <div
+                    className="action-block"
+                  >
+                    <Button
+                      className=" "
+                      disabled={false}
+                      type="button"
+                    >
+                      PROCEED TO CHECKOUT
+                    </Button>
+                  </div>
+                </div>,
+              ],
+              "className": "basket",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <table>
+                    <tbody>
+                      <tr>
+                        <td>
+                          No. of items
+                        </td>
+                        <td>
+                          :
+                        </td>
+                        <td>
+                          <strong />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          Sub Total
+                        </td>
+                        <td>
+                          :
+                        </td>
+                        <td>
+                          <strong />
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>,
+                  "className": "basket-info",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <tbody>
+                      <tr>
+                        <td>
+                          No. of items
+                        </td>
+                        <td>
+                          :
+                        </td>
+                        <td>
+                          <strong />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          Sub Total
+                        </td>
+                        <td>
+                          :
+                        </td>
+                        <td>
+                          <strong />
+                        </td>
+                      </tr>
+                    </tbody>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <tr>
+                          <td>
+                            No. of items
+                          </td>
+                          <td>
+                            :
+                          </td>
+                          <td>
+                            <strong />
+                          </td>
+                        </tr>,
+                        <tr>
+                          <td>
+                            Sub Total
+                          </td>
+                          <td>
+                            :
+                          </td>
+                          <td>
+                            <strong />
+                          </td>
+                        </tr>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <td>
+                              No. of items
+                            </td>,
+                            <td>
+                              :
+                            </td>,
+                            <td>
+                              <strong />
+                            </td>,
+                          ],
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "No. of items",
+                            },
+                            "ref": null,
+                            "rendered": "No. of items",
+                            "type": "td",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": ":",
+                            },
+                            "ref": null,
+                            "rendered": ":",
+                            "type": "td",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": <strong />,
+                            },
+                            "ref": null,
+                            "rendered": Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": undefined,
+                              },
+                              "ref": null,
+                              "rendered": null,
+                              "type": "strong",
+                            },
+                            "type": "td",
+                          },
+                        ],
+                        "type": "tr",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <td>
+                              Sub Total
+                            </td>,
+                            <td>
+                              :
+                            </td>,
+                            <td>
+                              <strong />
+                            </td>,
+                          ],
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Sub Total",
+                            },
+                            "ref": null,
+                            "rendered": "Sub Total",
+                            "type": "td",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": ":",
+                            },
+                            "ref": null,
+                            "rendered": ":",
+                            "type": "td",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": <strong />,
+                            },
+                            "ref": null,
+                            "rendered": Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": undefined,
+                              },
+                              "ref": null,
+                              "rendered": null,
+                              "type": "strong",
+                            },
+                            "type": "td",
+                          },
+                        ],
+                        "type": "tr",
+                      },
+                    ],
+                    "type": "tbody",
+                  },
+                  "type": "table",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <img
+                      alt="Basket"
+                      className=" "
+                      src="basket.png"
+                    />,
+                    "",
+                  ],
+                  "className": "basket-icon",
+                  "href": "/#",
+                  "onClick": [Function],
+                },
+                "ref": "basketButton",
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "Basket",
+                      "className": " ",
+                      "src": "basket.png",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  "",
+                ],
+                "type": "a",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <BasketScrollBar>
+                      <li
+                        className="basket-item"
+                      >
+                        <img
+                          alt="Russell Hobbs Pennine Illuminating S Steel Kettle 20444"
+                          className="product-image"
+                          src="https://media.4rgos.it/s/Argos/9805244_R_SET?w=110&h=130"
+                        />
+                        <div
+                          className="product-info"
+                        >
+                          <p
+                            className="product-name"
+                          >
+                            Russell Hobbs Pennine Illuminating S Steel Kettle 20444
+                          </p>
+                          <p
+                            className="product-price"
+                          >
+                            24.99
+                          </p>
+                        </div>
+                        <div
+                          className="product-total"
+                        >
+                          <p
+                            className="quantity"
+                          >
+                             
+                            No.
+                             
+                          </p>
+                          <p
+                            className="amount"
+                          >
+                            NaN
+                          </p>
+                        </div>
+                        <a
+                          className="product-remove"
+                          href="/#"
+                          onClick={[Function]}
+                        >
+                          ×
+                        </a>
+                      </li>
+                    </BasketScrollBar>,
+                    <div
+                      className="action-block"
+                    >
+                      <Button
+                        className=" "
+                        disabled={false}
+                        type="button"
+                      >
+                        PROCEED TO CHECKOUT
+                      </Button>
+                    </div>,
+                  ],
+                  "className": "basket-preview",
+                },
+                "ref": "basketPreview",
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": Array [
+                        <li
+                          className="basket-item"
+                        >
+                          <img
+                            alt="Russell Hobbs Pennine Illuminating S Steel Kettle 20444"
+                            className="product-image"
+                            src="https://media.4rgos.it/s/Argos/9805244_R_SET?w=110&h=130"
+                          />
+                          <div
+                            className="product-info"
+                          >
+                            <p
+                              className="product-name"
+                            >
+                              Russell Hobbs Pennine Illuminating S Steel Kettle 20444
+                            </p>
+                            <p
+                              className="product-price"
+                            >
+                              24.99
+                            </p>
+                          </div>
+                          <div
+                            className="product-total"
+                          >
+                            <p
+                              className="quantity"
+                            >
+                               
+                              No.
+                               
+                            </p>
+                            <p
+                              className="amount"
+                            >
+                              NaN
+                            </p>
+                          </div>
+                          <a
+                            className="product-remove"
+                            href="/#"
+                            onClick={[Function]}
+                          >
+                            ×
+                          </a>
+                        </li>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": "Russell Hobbs Pennine Illuminating S Steel Kettle 20444",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <img
+                              alt="Russell Hobbs Pennine Illuminating S Steel Kettle 20444"
+                              className="product-image"
+                              src="https://media.4rgos.it/s/Argos/9805244_R_SET?w=110&h=130"
+                            />,
+                            <div
+                              className="product-info"
+                            >
+                              <p
+                                className="product-name"
+                              >
+                                Russell Hobbs Pennine Illuminating S Steel Kettle 20444
+                              </p>
+                              <p
+                                className="product-price"
+                              >
+                                24.99
+                              </p>
+                            </div>,
+                            <div
+                              className="product-total"
+                            >
+                              <p
+                                className="quantity"
+                              >
+                                 
+                                No.
+                                 
+                              </p>
+                              <p
+                                className="amount"
+                              >
+                                NaN
+                              </p>
+                            </div>,
+                            <a
+                              className="product-remove"
+                              href="/#"
+                              onClick={[Function]}
+                            >
+                              ×
+                            </a>,
+                          ],
+                          "className": "basket-item",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "alt": "Russell Hobbs Pennine Illuminating S Steel Kettle 20444",
+                              "className": "product-image",
+                              "src": "https://media.4rgos.it/s/Argos/9805244_R_SET?w=110&h=130",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "img",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": Array [
+                                <p
+                                  className="product-name"
+                                >
+                                  Russell Hobbs Pennine Illuminating S Steel Kettle 20444
+                                </p>,
+                                <p
+                                  className="product-price"
+                                >
+                                  24.99
+                                </p>,
+                              ],
+                              "className": "product-info",
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": "Russell Hobbs Pennine Illuminating S Steel Kettle 20444",
+                                  "className": "product-name",
+                                },
+                                "ref": null,
+                                "rendered": "Russell Hobbs Pennine Illuminating S Steel Kettle 20444",
+                                "type": "p",
+                              },
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": 24.99,
+                                  "className": "product-price",
+                                },
+                                "ref": null,
+                                "rendered": 24.99,
+                                "type": "p",
+                              },
+                            ],
+                            "type": "div",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": Array [
+                                <p
+                                  className="quantity"
+                                >
+                                   
+                                  No.
+                                   
+                                </p>,
+                                <p
+                                  className="amount"
+                                >
+                                  NaN
+                                </p>,
+                              ],
+                              "className": "product-total",
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": Array [
+                                    undefined,
+                                    " ",
+                                    "No.",
+                                    " ",
+                                  ],
+                                  "className": "quantity",
+                                },
+                                "ref": null,
+                                "rendered": Array [
+                                  undefined,
+                                  " ",
+                                  "No.",
+                                  " ",
+                                ],
+                                "type": "p",
+                              },
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": NaN,
+                                  "className": "amount",
+                                },
+                                "ref": null,
+                                "rendered": NaN,
+                                "type": "p",
+                              },
+                            ],
+                            "type": "div",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "×",
+                              "className": "product-remove",
+                              "href": "/#",
+                              "onClick": [Function],
+                            },
+                            "ref": null,
+                            "rendered": "×",
+                            "type": "a",
+                          },
+                        ],
+                        "type": "li",
+                      },
+                    ],
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <Button
+                        className=" "
+                        disabled={false}
+                        type="button"
+                      >
+                        PROCEED TO CHECKOUT
+                      </Button>,
+                      "className": "action-block",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "children": "PROCEED TO CHECKOUT",
+                        "className": " ",
+                        "disabled": false,
+                        "type": "button",
+                      },
+                      "ref": null,
+                      "rendered": "PROCEED TO CHECKOUT",
+                      "type": [Function],
+                    },
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "header",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

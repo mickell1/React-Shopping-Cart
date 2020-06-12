@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BasketScrollBar should render the BasketScrollBar Component correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <BasketScrollBar>
+    Hello
+  </BasketScrollBar>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "autoHeight": false,
+      "autoHeightMax": 200,
+      "autoHeightMin": 0,
+      "autoHide": false,
+      "autoHideDuration": 200,
+      "autoHideTimeout": 1000,
+      "children": "Hello",
+      "hideTracksWhenNotNeeded": false,
+      "renderThumbHorizontal": [Function],
+      "renderThumbVertical": [Function],
+      "renderTrackHorizontal": [Function],
+      "renderTrackVertical": [Function],
+      "renderView": [Function],
+      "style": Object {
+        "height": 320,
+        "width": 360,
+      },
+      "tagName": "div",
+      "thumbMinSize": 30,
+      "universal": false,
+    },
+    "ref": "scrollbars",
+    "rendered": "Hello",
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "autoHeight": false,
+        "autoHeightMax": 200,
+        "autoHeightMin": 0,
+        "autoHide": false,
+        "autoHideDuration": 200,
+        "autoHideTimeout": 1000,
+        "children": "Hello",
+        "hideTracksWhenNotNeeded": false,
+        "renderThumbHorizontal": [Function],
+        "renderThumbVertical": [Function],
+        "renderTrackHorizontal": [Function],
+        "renderTrackVertical": [Function],
+        "renderView": [Function],
+        "style": Object {
+          "height": 320,
+          "width": 360,
+        },
+        "tagName": "div",
+        "thumbMinSize": 30,
+        "universal": false,
+      },
+      "ref": "scrollbars",
+      "rendered": "Hello",
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

@@ -1,0 +1,415 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should render the Footer Component correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Footer />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <p
+          className="footer-links"
+        >
+          <a
+            href="/#"
+          >
+            Privacy hub
+          </a>
+          <span>
+             | 
+          </span>
+          <a
+            href="/#"
+          >
+            Privacy policy
+          </a>
+          <span>
+             | 
+          </span>
+          <a
+            href="/#"
+          >
+            Cookies policy
+          </a>
+          <span>
+             | 
+          </span>
+          <a
+            href="/#"
+          >
+            Terms & conditions
+          </a>
+        </p>,
+        <p>
+          © Argos Limited 2020. All Rights Reserved.
+        </p>,
+      ],
+      "className": "footer",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <a
+              href="/#"
+            >
+              Privacy hub
+            </a>,
+            <span>
+               | 
+            </span>,
+            <a
+              href="/#"
+            >
+              Privacy policy
+            </a>,
+            <span>
+               | 
+            </span>,
+            <a
+              href="/#"
+            >
+              Cookies policy
+            </a>,
+            <span>
+               | 
+            </span>,
+            <a
+              href="/#"
+            >
+              Terms & conditions
+            </a>,
+          ],
+          "className": "footer-links",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Privacy hub",
+              "href": "/#",
+            },
+            "ref": null,
+            "rendered": "Privacy hub",
+            "type": "a",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": " | ",
+            },
+            "ref": null,
+            "rendered": " | ",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Privacy policy",
+              "href": "/#",
+            },
+            "ref": null,
+            "rendered": "Privacy policy",
+            "type": "a",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": " | ",
+            },
+            "ref": null,
+            "rendered": " | ",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Cookies policy",
+              "href": "/#",
+            },
+            "ref": null,
+            "rendered": "Cookies policy",
+            "type": "a",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": " | ",
+            },
+            "ref": null,
+            "rendered": " | ",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Terms & conditions",
+              "href": "/#",
+            },
+            "ref": null,
+            "rendered": "Terms & conditions",
+            "type": "a",
+          },
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "© Argos Limited 2020. All Rights Reserved.",
+        },
+        "ref": null,
+        "rendered": "© Argos Limited 2020. All Rights Reserved.",
+        "type": "p",
+      },
+    ],
+    "type": "footer",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <p
+            className="footer-links"
+          >
+            <a
+              href="/#"
+            >
+              Privacy hub
+            </a>
+            <span>
+               | 
+            </span>
+            <a
+              href="/#"
+            >
+              Privacy policy
+            </a>
+            <span>
+               | 
+            </span>
+            <a
+              href="/#"
+            >
+              Cookies policy
+            </a>
+            <span>
+               | 
+            </span>
+            <a
+              href="/#"
+            >
+              Terms & conditions
+            </a>
+          </p>,
+          <p>
+            © Argos Limited 2020. All Rights Reserved.
+          </p>,
+        ],
+        "className": "footer",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <a
+                href="/#"
+              >
+                Privacy hub
+              </a>,
+              <span>
+                 | 
+              </span>,
+              <a
+                href="/#"
+              >
+                Privacy policy
+              </a>,
+              <span>
+                 | 
+              </span>,
+              <a
+                href="/#"
+              >
+                Cookies policy
+              </a>,
+              <span>
+                 | 
+              </span>,
+              <a
+                href="/#"
+              >
+                Terms & conditions
+              </a>,
+            ],
+            "className": "footer-links",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Privacy hub",
+                "href": "/#",
+              },
+              "ref": null,
+              "rendered": "Privacy hub",
+              "type": "a",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": " | ",
+              },
+              "ref": null,
+              "rendered": " | ",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Privacy policy",
+                "href": "/#",
+              },
+              "ref": null,
+              "rendered": "Privacy policy",
+              "type": "a",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": " | ",
+              },
+              "ref": null,
+              "rendered": " | ",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Cookies policy",
+                "href": "/#",
+              },
+              "ref": null,
+              "rendered": "Cookies policy",
+              "type": "a",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": " | ",
+              },
+              "ref": null,
+              "rendered": " | ",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Terms & conditions",
+                "href": "/#",
+              },
+              "ref": null,
+              "rendered": "Terms & conditions",
+              "type": "a",
+            },
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "© Argos Limited 2020. All Rights Reserved.",
+          },
+          "ref": null,
+          "rendered": "© Argos Limited 2020. All Rights Reserved.",
+          "type": "p",
+        },
+      ],
+      "type": "footer",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

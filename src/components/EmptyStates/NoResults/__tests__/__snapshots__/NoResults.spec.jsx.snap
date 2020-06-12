@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NoResults should render the NoResults Component correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <NoResults />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="no-results"
+      >
+        <img
+          alt="No results"
+          src="no-results.png"
+        />
+        <h2>
+          Sorry, no products matched your search!
+        </h2>
+        <p>
+          Enter a different keyword and try.
+        </p>
+      </div>,
+      "className": "products",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <img
+            alt="No results"
+            src="no-results.png"
+          />,
+          <h2>
+            Sorry, no products matched your search!
+          </h2>,
+          <p>
+            Enter a different keyword and try.
+          </p>,
+        ],
+        "className": "no-results",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "No results",
+            "src": "no-results.png",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Sorry, no products matched your search!",
+          },
+          "ref": null,
+          "rendered": "Sorry, no products matched your search!",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Enter a different keyword and try.",
+          },
+          "ref": null,
+          "rendered": "Enter a different keyword and try.",
+          "type": "p",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="no-results"
+        >
+          <img
+            alt="No results"
+            src="no-results.png"
+          />
+          <h2>
+            Sorry, no products matched your search!
+          </h2>
+          <p>
+            Enter a different keyword and try.
+          </p>
+        </div>,
+        "className": "products",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <img
+              alt="No results"
+              src="no-results.png"
+            />,
+            <h2>
+              Sorry, no products matched your search!
+            </h2>,
+            <p>
+              Enter a different keyword and try.
+            </p>,
+          ],
+          "className": "no-results",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "No results",
+              "src": "no-results.png",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Sorry, no products matched your search!",
+            },
+            "ref": null,
+            "rendered": "Sorry, no products matched your search!",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Enter a different keyword and try.",
+            },
+            "ref": null,
+            "rendered": "Enter a different keyword and try.",
+            "type": "p",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

@@ -1,0 +1,20 @@
+@import '../../variables.scss';
+
+footer {
+  color: $color-grey;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 32px;
+  background: $color-black;
+  strong {
+    color: $color-grey;
+  }
+  .footer-links {
+    margin-bottom: 24px;
+    a {
+      margin: 0 8px;
+      color: $color-white;
+    }
+  }
+}
